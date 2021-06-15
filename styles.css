@@ -13,6 +13,7 @@
     font-size: 11px; text-align: center; 
     color: hsl(0, 0%, 75%);
     margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 .attribution a { 
@@ -24,14 +25,22 @@
 .wrapper {
     display: flex;
     flex-direction: column;
-    margin: 80px 28px;
+    margin-top: 80px;
+    justify-content: center;
+    align-items: center;
 }
 
 .block {
-    padding: 40px;
+    max-width: 65%;
+    padding: 45px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     row-gap: 30px;
+}
+
+.block p {
+    max-width: 95%;
 }
 
 .block img {
@@ -73,8 +82,13 @@ button {
     border: none;
     border-radius: 30px;
     padding: 10px;
-    max-width: 60%;
+    width: 120px;
     line-height: 1.7rem;
+    
+}
+
+button:focus {
+    outline: none;
 }
 
 h1 {
@@ -84,6 +98,48 @@ h1 {
     font-family: Big Shoulders Display, sans-serif;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 600px) {
+    .block p {
+        max-width: 85%;
+    }
+}
 
+@media (min-width: 720px) {
+    .block p {
+        max-width: 72%;
+    }
+}
+
+@media (min-width: 1300px) {
+    .wrapper {
+        display: flex;
+        flex-direction: row;
+        margin-top: 12%;
+    }
+    .block {
+        max-width: 16%;
+        height: 390px;
+    }
+    .a {
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 10px;
+    }
+    .c {
+        border-bottom-left-radius: 0;
+        border-top-right-radius: 10px;
+    }
+    .block p {
+        max-width: 95%;
+        line-height: 1.7rem;
+    }
+    .block button {
+        margin-top: 50px;
+    }
+    button:hover {
+        background-color: transparent;
+        box-shadow:0px 0px 0px 2px hsl(0, 0%, 95%) inset;
+    }
+    button:hover > a {
+        color: hsl(0, 0%, 95%);
+    }
 }
