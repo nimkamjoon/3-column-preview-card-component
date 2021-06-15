@@ -15,7 +15,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Project screenshot on desktop](./images/Captura de tela 2021-06-14 221040.png)
+![Project screenshot on desktop](/images/Captura de tela 2021-06-14 221040.png)
 
 ### Links
 
