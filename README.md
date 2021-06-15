@@ -15,11 +15,11 @@ Users should be able to:
 
 ### Screenshot
 
-![](../images/Captura de tela 2021-06-14 221040.png)
+![Project screenshot on desktop](./images/Captura de tela 2021-06-14 221040.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here]
+- Solution URL: [https://www.frontendmentor.io/solutions/mobile-first-layout-using-flexbox-ddscVtqFx]
 - Live Site URL: [https://nimkamjoon.github.io/3-column-preview-card-component/]
 
 ### Built with
