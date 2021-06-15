@@ -13,10 +13,6 @@ Users should be able to:
 - View the optimal layout depending on their device's screen size
 - See hover states for interactive elements
 
-### Screenshot
-
-![Project screenshot on desktop](/images/Captura de tela 2021-06-14 221040.png)
-
 ### Links
 
 - Solution URL: [https://www.frontendmentor.io/solutions/mobile-first-layout-using-flexbox-ddscVtqFx]
